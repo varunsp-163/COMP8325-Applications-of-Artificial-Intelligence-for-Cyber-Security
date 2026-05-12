@@ -1,0 +1,22 @@
+# Virtual env
+.venv/
+
+# Dataset files
+*.npz
+*.csv
+
+# Models
+*.pkl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Mac files
+.DS_Store
+
+.venv/
+*.npz
+*.csv
+*.pkl
+.ipynb_checkpoints/
+.DS_Store
