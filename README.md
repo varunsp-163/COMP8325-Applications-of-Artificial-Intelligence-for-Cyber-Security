@@ -48,8 +48,8 @@ BODMAS_Assignment_Final/
 │   ├── bodmas_metadata_holdout.csv
 │   └── bodmas_malware_category.csv
 │
-├── randomforest/
-├── logisticregression/
+├── randomforest/(to store the outputs)
+├── logisticregression/(to store the outputs)
 ├── random_final_submit.ipynb
 └── logistic_final_submit.ipynb
 ```
