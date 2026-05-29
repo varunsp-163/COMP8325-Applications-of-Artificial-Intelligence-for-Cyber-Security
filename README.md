@@ -31,7 +31,7 @@ Comment out the Drive mount cell and update `PROJECT_DIR` to your local path:
 # from google.colab import drive
 # drive.mount('/content/drive')
 
-PROJECT_DIR = "/path/to/BODMAS_Assignment"
+PROJECT_DIR = "/path/to/BODMAS_Assignment_Final"
 ```
 
 ## Dataset Structure
