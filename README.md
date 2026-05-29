@@ -1,4 +1,4 @@
-# BODMAS Malware Classification
+# BODMAS Malware Classification ([GitHub Repository](https://github.com/varunsp-163/COMP8325-Applications-of-Artificial-Intelligence-for-Cyber-Security))
 
 Multi-class malware family classification on the BODMAS dataset using Logistic Regression and Random Forest.
 
