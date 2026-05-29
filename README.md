@@ -1,42 +1,49 @@
-# BODMAS Malware Category Classification
+# BODMAS Malware Classification
 
-This project trains and evaluates two machine learning models for malware category classification using the BODMAS dataset:
+Multi-class malware family classification on the BODMAS dataset using Logistic Regression and Random Forest.
 
-1. Logistic Regression
-2. Random Forest
+## Requirements
 
----
+```
+numpy
+pandas
+scikit-learn
+matplotlib
+joblib
+```
 
-## Project Structure
+```bash
+pip install numpy pandas scikit-learn matplotlib joblib
+```
 
-```text
+## How to Run
+
+Both notebooks are designed for **Google Colab**. Upload the `BODMAS_Assignment/` folder to your Google Drive under `MyDrive`, then open and run each notebook top to bottom.
+
+- `logistic_final_submit.ipynb` — Logistic Regression training, evaluation, and holdout prediction
+- `random_final_submit.ipynb` — Random Forest training, evaluation, and holdout prediction
+
+### Running Locally
+
+Comment out the Drive mount cell and update `PROJECT_DIR` to your local path:
+
+```python
+# from google.colab import drive
+# drive.mount('/content/drive')
+
+PROJECT_DIR = "/path/to/BODMAS_Assignment"
+```
+
+## Dataset Structure
+
+```
 BODMAS_Assignment/
-│
 ├── dataset/
 │   ├── bodmas.npz
 │   ├── bodmas_metadata.csv
 │   └── bodmas_malware_category.csv
-│
-├── HoldOutDataSet/
-│   ├── bodmas_holdout.npz
-│   ├── bodmas_metadata_holdout.csv
-│   └── bodmas_malware_category.csv
-│
-├── logisticregression/
-│   ├── logistic_regression_model.joblib
-│   ├── label_encoder.joblib
-│   ├── lr_class_distribution.csv
-│   ├── lr_train_tpr_fpr.csv
-│   ├── lr_test_tpr_fpr.csv
-│   └── lr_results_summary.csv
-│
-├── randomforest/
-│   ├── random_forest_model.joblib
-│   ├── label_encoder.joblib
-│   ├── rf_class_distribution.csv
-│   ├── rf_train_tpr_fpr.csv
-│   ├── rf_test_tpr_fpr.csv
-│   └── rf_results_summary.csv
-│
-├── logistic_final_submit.ipynb
-└── random_final_submit.ipynb
+└── HoldOutDataSet/
+    ├── bodmas_holdout.npz
+    ├── bodmas_metadata_holdout.csv
+    └── bodmas_malware_category.csv
+```
