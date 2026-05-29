@@ -18,10 +18,10 @@ pip install numpy pandas scikit-learn matplotlib joblib
 
 ## How to Run
 
-Both notebooks are designed for **Google Colab**. Upload the `BODMAS_Assignment/` folder to your Google Drive under `MyDrive`, then open and run each notebook top to bottom.
+Both notebooks are designed for **Google Colab**. Create the `BODMAS_Assignment/` folder to your Google Drive under `MyDrive`, then open and run each notebook top to bottom.
 
-- `logistic_final_submit.ipynb` — Logistic Regression training, evaluation, and holdout prediction
-- `random_final_submit.ipynb` — Random Forest training, evaluation, and holdout prediction
+- `logistic_final_submit.ipynb` - Logistic Regression training, evaluation, and holdout prediction
+- `random_final_submit.ipynb` - Random Forest training, evaluation, and holdout prediction
 
 ### Running Locally
 
