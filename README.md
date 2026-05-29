@@ -37,13 +37,19 @@ PROJECT_DIR = "/path/to/BODMAS_Assignment"
 ## Dataset Structure
 
 ```
-BODMAS_Assignment/
+BODMAS_Assignment_Final/
 ├── dataset/
 │   ├── bodmas.npz
-│   ├── bodmas_metadata.csv
+│   └── bodmas_metadata.csv
+│
+├── HoldOutDataSet/
+│   ├── bodmas_metadata_train_test.csv
+│   ├── bodmas_holdout.npz
+│   ├── bodmas_metadata_holdout.csv
 │   └── bodmas_malware_category.csv
-└── HoldOutDataSet/
-    ├── bodmas_holdout.npz
-    ├── bodmas_metadata_holdout.csv
-    └── bodmas_malware_category.csv
+│
+├── randomforest/
+├── logisticregression/
+├── random_final_submit.ipynb
+└── logistic_final_submit.ipynb
 ```
