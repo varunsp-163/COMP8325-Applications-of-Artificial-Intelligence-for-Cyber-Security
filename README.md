@@ -53,3 +53,6 @@ BODMAS_Assignment_Final/
 ├── random_final_submit.ipynb
 └── logistic_final_submit.ipynb
 ```
+
+## Update
+The retrained files on the new dataset are in the `retrain` folder.
